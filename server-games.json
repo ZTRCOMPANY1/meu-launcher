@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Parkour Space",
+    "description": "Jogo de parkour em gravidade zero.",
+    "image": "assets/parkour.jpg",
+    "downloadUrl": "https://seusite.com/downloads/parkourspace.zip",
+    "executable": "ParkourSpace.exe"
+  }
+]
