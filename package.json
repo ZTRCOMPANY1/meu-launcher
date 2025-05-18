@@ -17,5 +17,28 @@
   "devDependencies": {
     "electron": "^36.2.1",
     "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.ztrcompany.launcher",
+    "productName": "ZTR App Store",
+    "copyright": "© 2025 ZTR Company",
+    "files": [
+      "**/*"
+    ],
+    "directories": {
+      "buildResources": "build"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "ZTR App Store"
+    }
   }
 }
